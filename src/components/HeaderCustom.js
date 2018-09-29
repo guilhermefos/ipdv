@@ -9,7 +9,7 @@ const HeaderCustom = ({ header }) => {
       <Absolute zIndex={1} left={0} right={0} top={0}>
         <Flex is='header' p={3}>
           <NavLink href='/' fontSize={3}>{header.brand}</NavLink>
-          <NavLink href='#' ml='auto'>{header.button}</NavLink>
+          <NavLink href='/login' ml='auto'>{header.button}</NavLink>
         </Flex>
       </Absolute>
     </Relative>

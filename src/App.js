@@ -1,15 +1,15 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+import routes from './routes';
 import store from './store';
 
-const App = ({ routes }) => {
+const App = () => {
   return routes ?
     <Provider store={store}>
       <React.Fragment>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             {routes.map((route) => {
               return (
@@ -29,10 +29,6 @@ const App = ({ routes }) => {
       </React.Fragment>
     </Provider>
     : null;
-};
-
-App.propTypes = {
-  routes: PropTypes.array.isRequired
 };
 
 export default App;

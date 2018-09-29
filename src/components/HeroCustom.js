@@ -14,7 +14,7 @@ const HeroCustom = ({ hero }) => {
       backgroundImage={hero.background}
     >
       <Flex flexWrap='wrap' alignItems='center'>
-        <Flex alignItems='flex-start' width={[1, 1 / 2]} p={3}>
+        <Flex alignItems='flex-start' width={[1, 1 / 2]} p={3} mb={40}>
           <Phone
             src='https://via.placeholder.com/187x406'
             style={{transform: 'translate(32px, 64px)'}}
@@ -34,8 +34,8 @@ const HeroCustom = ({ hero }) => {
           {hero.description}
           </Subhead>
           <Flex mt={3} flexWrap='wrap' justifyContent='center' flexDirection='column'>
-            <CallToAction bg='black' mb={2}> App store</CallToAction>
-            <CallToAction bg='black'>Google Play</CallToAction>
+            <CallToAction bg='#02BDC7' mb={2}> App store</CallToAction>
+            <CallToAction bg='#02BDC7'>Google Play</CallToAction>
           </Flex>
         </Flex>
       </Flex>

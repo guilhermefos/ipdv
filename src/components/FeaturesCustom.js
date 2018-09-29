@@ -7,8 +7,8 @@ import { Feature } from 'react-landing-page';
 const FeaturesCustom = ({ feature }) => {
   return (
     <div>
-      <Heading mt={25} textAlign='center'>Nossas Motivações</Heading>
-      <Flex flexWrap='wrap' justifyContent='center'>
+      <Heading mt={25} textAlign='center' style={{ color: '#9B9B9B' }}>Nossas Frentes</Heading>
+      <Flex flexWrap='wrap' alignItems='stretch' justifyContent='center'>
         {Object.keys(feature).map((key) => (
           <Feature
             key={feature[key].icon}

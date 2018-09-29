@@ -1,18 +1,18 @@
 const default_state = [
   {
-    icon: '👋',
-    title: 'Hero',
-    description: 'What your users see first',
+    icon: '🚀',
+    title: 'Total',
+    description: 'Apoiar as pessoas na sua formação e definição de uma carreira profissional que faça sentido para a sua vida e incorporá-lo ao mercado de trabalho.',
   },
   {
-    icon: '🔥',
-    title: 'Features',
-    description: 'What your app can do',
+    icon: '🎓',
+    title: 'Carreira',
+    description: 'Apoiar as pessoas na sua formação e definição de uma carreira profissional que faça sentido para a sua vida e incorporá-lo ao mercado de trabalho.',
   },
   {
-    icon: '📩',
-    title: 'Sign Up',
-    description: 'How to keep in touch',
+    icon: '🌟',
+    title: 'Transforma',
+    description: 'Apoiar as pessoas na sua formação e definição de uma carreira profissional que faça sentido para a sua vida e incorporá-lo ao mercado de trabalho.',
   },
 ]
 

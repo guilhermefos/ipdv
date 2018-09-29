@@ -7,6 +7,9 @@ import HeroCustom from '../components/HeroCustom';
 import FeaturesCustom from '../components/FeaturesCustom';
 import SignUpCustom from '../components/SignUpCustom';
 import SocialProofCustom from '../components/SocialProofCustom';
+import PartnersCustom from '../components/PartnersCustom';
+import IdealizersCustom from '../components/IdealizersCustom';
+import FooterCustom from '../components/FooterCustom';
 
 const Index = () => {
   return (
@@ -16,6 +19,9 @@ const Index = () => {
       <FeaturesCustom />
       <SignUpCustom />
       <SocialProofCustom />
+      <PartnersCustom />
+      <IdealizersCustom />
+      <FooterCustom />
     </div>
   )
 };
